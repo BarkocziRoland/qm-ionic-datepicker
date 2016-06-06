@@ -22,6 +22,7 @@
         scope.disabledDates = [];
 
         //Setting the title, today, close and set strings for the date picker
+        scope.dateFormat = scope.inputObj.dateFormat ? (scope.inputObj.dateFormat) : "dd/MM/yyyy";
         scope.titleLabel = scope.inputObj.titleLabel ? (scope.inputObj.titleLabel) : 'Select Date';
         scope.todayLabel = scope.inputObj.todayLabel ? (scope.inputObj.todayLabel) : 'Today';
         scope.closeLabel = scope.inputObj.closeLabel ? (scope.inputObj.closeLabel) : 'Close';
